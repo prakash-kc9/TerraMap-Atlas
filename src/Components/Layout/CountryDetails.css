@@ -1,0 +1,92 @@
+/* Main Layout for the details page */
+.country-details {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  max-width: 1100px;
+  background: linear-gradient(145deg, #1e1e2f, #2b2b3d);
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  color: #f5f5f5;
+}
+
+/* Flag and details styling */
+.flag-box img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.details-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.details-box h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.details-box p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #d1d1d1;
+}
+
+.details-box strong {
+  font-weight: 650;
+  color: #4fd1c5;
+}
+
+/* Go back button styling */
+.go-back-btn {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  text-decoration: none;
+}
+
+.go-back-btn button {
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.go-back-btn button:hover {
+  background: #f5f5f5;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.go-back-btn button:active {
+  transform: scale(0.96);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  .country-details {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .flag-box img {
+    margin: 0 auto;
+  }
+}

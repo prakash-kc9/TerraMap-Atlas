@@ -1,0 +1,82 @@
+/* Header and overall layout */
+.main-container {
+  background-color: rgb(59, 59, 59);
+  padding: 0.5rem 1rem;
+}
+
+.navbar-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo-img {
+  height: 120px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Navigation links */
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+/* Hover effect for links */
+.nav a:hover {
+  color: #ddd;
+}
+
+/* Active NavLink styling */
+.nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
+
+/* Hamburger menu button */
+.ham-menu {
+  display: none;
+}
+
+.ham-menu button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgb(59, 59, 59);
+    padding: 1rem 2rem;
+    border-radius: 8px;
+  }
+
+  .nav.active ul {
+    display: flex;
+  }
+
+  .ham-menu {
+    display: block;
+  }
+}
