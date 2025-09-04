@@ -1,60 +1,64 @@
-TerraMap: A Global Atlas
-Owner: Prakash Choudhary
+# 🌍 TerraMap: A Global Atlas  
 
-TerraMap is a web application designed to be a comprehensive and intuitive atlas for exploring countries. Built with a focus on clean design and efficient data fetching, it provides users with key information about every country in the world in a single, responsive interface.
+**Owner:** Prakash Choudhary  
 
-The project demonstrates my ability to build a robust, data-driven application from the ground up, handle asynchronous data, and create a user-friendly interface using modern React best practices.
+**TerraMap** is a modern web application designed to be a comprehensive and intuitive atlas for exploring countries across the globe. With a clean design, seamless navigation, and efficient data fetching, it provides users with key details about every nation in a single, responsive interface.  
 
-Features
-Comprehensive Data Display: View a country's population, capital, languages, currencies, and more.
+🔗 **Live Demo:** [https://terramap4atlas.netlify.app/](https://terramap4atlas.netlify.app/)  
 
-Search & Filter: Easily find countries by name or filter by region.
+---
 
-Dynamic Routing: Seamlessly navigate to a detailed view for each country.
+## ✨ Features  
 
-Responsive Layout: The application is fully responsive and optimized for a consistent experience on both desktop and mobile devices.
+- **Comprehensive Country Data** – Explore details such as population, capital, languages, currencies, and more.  
+- **Search & Filter** – Quickly find countries by name or filter them by region.  
+- **Dynamic Routing** – Navigate smoothly to detailed country views with React Router.  
+- **Responsive Layout** – Optimized for both desktop and mobile for a consistent user experience.  
 
-Core Technologies
-React: The application is built using React to manage state and create a component-based architecture.
+---
 
-React Router: Handles client-side routing for dynamic and efficient page navigation.
+## 🛠️ Core Technologies  
 
-Axios: Manages API calls to the REST Countries API for data fetching.
+- **React** – Component-based UI with efficient state management.  
+- **React Router** – For dynamic, client-side navigation.  
+- **Axios** – Handles API requests to the REST Countries API.  
+- **CSS** – Clean, minimal styling with a focus on responsiveness.  
 
-CSS: All styling is done with modern CSS, focusing on a clean, minimal design and responsive layouts.
+---
 
-Getting Started
-To run this project on your local machine, follow these simple steps:
+## 🚀 Getting Started  
 
-Clone the repository:
+Follow these steps to run the project locally:  
 
-Bash
-
+```bash
+# Clone the repository
 git clone [Your Repository URL]
-Navigate to the project directory:
 
-Bash
-
+# Navigate into the project directory
 cd terramap
-Install dependencies:
 
-Bash
-
+# Install dependencies
 npm install
-Start the development server:
 
-Bash
-
+# Start the development server
 npm run dev
-The application will be accessible at http://localhost:5173.
 
-Future Scope
-While this project is a complete and functional application, a few key areas have been identified for potential future development to enhance the user experience and demonstrate more advanced skills:
+📍 The app will be available at http://localhost:5173
 
-Performance Optimization: Implement state management (e.g., Redux, Zustand) to reduce prop drilling and manage global state more efficiently.
+🔮 Future Scope
 
-User Interface Enhancements: Integrate a dark/light mode toggle for accessibility and user preference.
+Performance Optimization – Add state management libraries (Redux, Zustand) for global state handling.
 
-Advanced Data Visualization: Add interactive charts and graphs to visualize demographic data such as population growth over time.
+UI Enhancements – Dark/Light mode toggle for better accessibility.
 
-Extended Functionality: Implement a feature to display a country's neighboring countries and allow for easy navigation between them.
+Advanced Visualizations – Interactive charts & graphs (e.g., population trends).
+
+Extended Functionality – Show neighboring countries with quick navigation.
+
+👉 This project demonstrates my ability to:
+
+Build robust, data-driven applications from scratch.
+
+Handle asynchronous data fetching effectively.
+
+Create intuitive, user-friendly interfaces using modern React best practices.
